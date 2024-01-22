@@ -1,0 +1,44 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .brand-container {
+    .brand {
+      img {
+        height: 100%;
+      }
+    }
+  }
+  .nav-links-container {
+    .nav-links {
+      list-style-type: none;
+      display: flex;
+      gap: 5rem;
+      li {
+        a {
+          color: var(--card-color);
+          text-decoration: none;
+        }
+      }
+      .nav-buttons {
+        list-style-type: none;
+        display: flex;
+        margin-top: -5px;
+        gap: 4px;
+        li {
+          a > button {
+            cursor: pointer;
+            border: none;
+
+            color: var(--accent-color1);
+            background-color: #ff645c;
+            font-size: 14px;
+            padding: 10px 20px 10px 20px;
+            border-radius: 6px;
+            font-weight: 600;
+          }
+        }
+      }
+    }
+  }
+}

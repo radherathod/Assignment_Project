@@ -1,0 +1,39 @@
+footer {
+  margin-left: -110px;
+  width: 1440px;
+
+  bottom: 0;
+  background: var(--card-color);
+  color: var(--accent-color1);
+  padding: 14px 18px 10px;
+  .row {
+    width: 87%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    .col {
+      flex-basis: 25%;
+
+      padding: 10px;
+      P {
+        padding: 11px 0;
+      }
+      input {
+        height: 40px;
+        width: 254px;
+        border-radius: 8px;
+        border: none;
+        top: 52px;
+        opacity: 20%;
+        margin: 10px 0;
+        padding: 9px;
+      }
+    }
+  }
+}
+.icon {
+  padding: 9px;
+}
